@@ -1,0 +1,99 @@
+# Client - React/Vite frontend
+# Logs
+Client/logs
+Client/*.log
+Client/npm-debug.log*
+Client/yarn-debug.log*
+Client/yarn-error.log*
+Client/pnpm-debug.log*
+Client/lerna-debug.log*
+
+# Dependencies
+Client/node_modules
+Client/dist
+Client/dist-ssr
+Client/*.local
+
+# Editor directories and files for Client
+Client/.vscode/*
+!Client/.vscode/extensions.json
+Client/.idea
+Client/.DS_Store
+Client/*.suo
+Client/*.ntvs*
+Client/*.njsproj
+Client/*.sln
+Client/*.sw?
+
+# Environment variables
+Client/.env
+Client/.env.local
+Client/.env.development.local
+Client/.env.test.local
+Client/.env.production.local
+
+# Build files
+Client/build/
+Client/coverage/
+
+# Misc
+Client/.cache/
+Client/.vercel
+
+# Server - Node.js/TypeScript backend
+# Logs
+Server/logs
+Server/*.log
+Server/npm-debug.log*
+Server/yarn-debug.log*
+Server/yarn-error.log*
+Server/lerna-debug.log*
+
+# Dependencies
+Server/node_modules/
+Server/jspm_packages/
+
+# TypeScript cache
+Server/*.tsbuildinfo
+Server/dist/
+
+# Environment variables
+Server/.env
+Server/.env.local
+Server/.env.development.local
+Server/.env.test.local
+Server/.env.production.local
+
+# Docker volumes
+Server/docker-volumes/
+
+# Optional npm cache directory
+Server/.npm
+
+# Optional eslint cache
+Server/.eslintcache
+
+# Miscellaneous
+Server/.DS_Store
+Server/.idea/
+Server/.vscode/*
+!Server/.vscode/settings.json
+!Server/.vscode/tasks.json
+!Server/.vscode/launch.json
+!Server/.vscode/extensions.json
+
+# Coverage directory
+Server/coverage/
+
+# Build output
+Server/build/
+Server/out/
+
+# Prisma specific
+Server/.prisma/
+
+# Project-wide files to ignore
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
